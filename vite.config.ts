@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     port: 2000,
     host: '0.0.0.0',
+    allowedHosts: 'all',
   },
   plugins: [react()],
   
